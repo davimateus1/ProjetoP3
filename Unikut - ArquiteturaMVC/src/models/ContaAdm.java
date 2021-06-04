@@ -1,7 +1,4 @@
-
 package models;
-
-
 
 public class ContaAdm extends Usuario {
 

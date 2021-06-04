@@ -5,14 +5,8 @@ import controllers.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
 import models.Usuario;
-import static views.cores.ANSI_BLUE;
-import static views.cores.ANSI_GREEN;
-import static views.cores.ANSI_RESET;
-import static views.cores.ANSI_WHITE;
-import static views.cores.ANSI_WHITE_BACKGROUND;
-import static views.cores.ANSI_YELLOW;
+import static views.cores.*;
 
 public class admView extends usuarioView {
 

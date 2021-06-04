@@ -4,9 +4,7 @@ package views;
 import java.util.List;
 import java.util.Scanner;
 import models.Usuario;
-import static views.cores.ANSI_BLUE;
-import static views.cores.ANSI_GREEN;
-import static views.cores.ANSI_RESET;
+import static views.cores.*;
 
 
 public class menuAdm {

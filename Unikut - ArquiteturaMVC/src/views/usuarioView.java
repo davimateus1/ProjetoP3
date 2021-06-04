@@ -16,7 +16,6 @@ public class usuarioView extends Usuario {
     public controllerRecados d = controllerRecados.getInstance();
     
     public void exibeConversa(List<Usuario> usuarios) {
-        Runnable runnable = () -> {
             Scanner in = new Scanner(System.in);
             System.out.println(ANSI_GREEN + "Informe o seu login para exibição de conversas: " + ANSI_RESET);
             String login1 = in.nextLine();
@@ -33,7 +32,7 @@ public class usuarioView extends Usuario {
                 }
             }
         };
-    }
+    
 
     public void exibeMural(Usuario usuario) {
         System.out.println(ANSI_GREEN + ANSI_WHITE_BACKGROUND + "BEM VINDO AO MURAL" + ANSI_RESET);
